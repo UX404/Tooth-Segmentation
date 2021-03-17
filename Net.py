@@ -59,7 +59,7 @@ class VGG(nn.Module):
         return output
 
 
-class Union(nn.Module):
+class Joint(nn.Module):
     def __init__(self, classification=2):
         super().__init__()
         self.lenet = nn.Sequential(

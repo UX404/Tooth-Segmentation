@@ -4,6 +4,7 @@ import os
 import torch
 
 test_case = 'male/0016.jpg'
+result_name = "result/('160_normal_4', '32_sobel_4', '32_canny_4')_2021-03-15_01-37-28"
 
 color = [(114, 128, 250),  # 鲜肉色
          (0, 165, 255),  # 橙色
@@ -12,7 +13,7 @@ color = [(114, 128, 250),  # 鲜肉色
 classification = ['牙冠', '牙根', '牙髓', '非牙齿']
 
 # load
-net = torch.load("result/('160_normal_4', '32_sobel_4', '32_canny_4')_2021-03-15_01-37-28.pth")
+net = torch.load(result_name + '.pth')
 image_copy = Image.open('H:/DentalClassification/data/cut_' + test_case).convert('RGB')
 image_normal = Image.open('H:/DentalClassification/data/cut_' + test_case).convert('L')
 image_sobel = Image.open('H:/DentalClassification/data/cut_sobel_' + test_case).convert('L')
@@ -26,4 +27,6 @@ for i in range(700):
         y = torch.argmax(net.forward(x[0], x[1], x[2])).cpu().numpy()
         image_copy.putpixel((j, i), color[y])
         print("Painting (%d, %d) " % (i, j) + classification[y])
+
+image_copy.save(result_name + '.jpg')
 image_copy.show()
