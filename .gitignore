@@ -5,3 +5,5 @@ data/
 model/
 
 testimage/
+
+__pycache__/
