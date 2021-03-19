@@ -10,7 +10,7 @@ import numpy as np
 source = ('160_normal_4', '32_sobel_4', '32_canny_4')
 lr = 5e-5
 batch_size = 100
-epochs = 70
+epochs = 50
 
 # ['其他', '牙冠', '牙齿', '牙龈']
 epoch_time = -1
@@ -92,7 +92,7 @@ def main():
     test_data = PatchDataTest(source)
     test_loader = DataLoader(test_data, batch_size=1, shuffle=True)
 
-    net = Joint(int(source[0][-1]))
+    net = Joint_256(int(source[0][-1]))
     net = net.cuda()
     loss = torch.nn.CrossEntropyLoss(reduction='mean').cuda()
     optimizer = torch.optim.Adam(net.parameters(), lr=lr, eps=1e-6)
@@ -120,9 +120,9 @@ def main():
     plt.plot(range(1, epochs + 1), total_acc, color='red', marker='o', linestyle='--', linewidth=2.0)
     plt.text(epochs, total_acc[-1], total_acc[-1]*1000//1/10)
 
-    fig.savefig('result/' + str(source) + '_' + time.strftime("%Y-%m-%d_%H-%M-%S", time.localtime()) + '.jpg', dpi=800)
-    torch.save(net, 'result/' + str(source) + '_' + time.strftime("%Y-%m-%d_%H-%M-%S", time.localtime()) + '.pth')
-    with open('result/' + str(source) + '_' + time.strftime("%Y-%m-%d_%H-%M-%S", time.localtime()) + '.txt', mode='w') as log_txt:
+    fig.savefig('result/' + net.__class__.__name__ + '_' + str(source) + '_' + time.strftime("%Y-%m-%d_%H-%M-%S", time.localtime()) + '.jpg', dpi=800)
+    torch.save(net, 'result/' + net.__class__.__name__ + '_' + str(source) + '_' + time.strftime("%Y-%m-%d_%H-%M-%S", time.localtime()) + '.pth')
+    with open('result/' + net.__class__.__name__ + '_' + str(source) + '_' + time.strftime("%Y-%m-%d_%H-%M-%S", time.localtime()) + '.txt', mode='w') as log_txt:
         log_txt.write(log)
 
     plt.show()

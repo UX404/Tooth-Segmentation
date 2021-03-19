@@ -7,10 +7,10 @@ from matplotlib import pyplot as plt
 import time
 import numpy as np
 
-source = '160_sobel_4'
+source = '160_normal_4'
 lr = 5e-5
 batch_size = 100
-epochs = 30
+epochs = 50
 
 # ['其他', '牙冠', '牙齿', '牙龈']
 epoch_time = -1
@@ -120,9 +120,9 @@ def main():
     plt.plot(range(1, epochs + 1), total_acc, color='red', marker='o', linestyle='--', linewidth=2.0)
     plt.text(epochs, total_acc[-1], total_acc[-1]*1000//1/10)
 
-    fig.savefig('result/' + str(source) + '_' + time.strftime("%Y-%m-%d_%H-%M-%S", time.localtime()) + '.jpg', dpi=800)
-    torch.save(net, 'result/' + str(source) + '_' + time.strftime("%Y-%m-%d_%H-%M-%S", time.localtime()) + '.pth')
-    with open('result/' + str(source) + '_' + time.strftime("%Y-%m-%d_%H-%M-%S", time.localtime()) + '.txt', mode='w') as log_txt:
+    fig.savefig('result/' + net.__class__.__name__ + '_' + str(source) + '_' + time.strftime("%Y-%m-%d_%H-%M-%S", time.localtime()) + '.jpg', dpi=800)
+    torch.save(net, 'result/' + net.__class__.__name__ + '_' + str(source) + '_' + time.strftime("%Y-%m-%d_%H-%M-%S", time.localtime()) + '.pth')
+    with open('result/' + net.__class__.__name__ + '_' + str(source) + '_' + time.strftime("%Y-%m-%d_%H-%M-%S", time.localtime()) + '.txt', mode='w') as log_txt:
         log_txt.write(log)
 
     plt.show()
