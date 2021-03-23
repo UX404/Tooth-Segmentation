@@ -92,7 +92,7 @@ def main():
     test_data = PatchDataTest(source)
     test_loader = DataLoader(test_data, batch_size=1, shuffle=True)
 
-    net = Joint_256(int(source[0][-1]))
+    net = Joint_64(int(source[0][-1]))
     net = net.cuda()
     loss = torch.nn.CrossEntropyLoss(reduction='mean').cuda()
     optimizer = torch.optim.Adam(net.parameters(), lr=lr, eps=1e-6)

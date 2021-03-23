@@ -1,0 +1,500 @@
+Epoch 1
+lr = 5.00e-05
+Epoch_time: 153.85s
+Accuracy: 84.31%
+Confusion matrix: [[257, 12, 8, 52], [1, 189, 12, 3], [3, 15, 263, 7], [45, 8, 18, 280]]
+ÆäËû: Sensitivity: 83.99%, Specificity: 91.70%
+ÑÀ¹Ú: Sensitivity: 84.37%, Specificity: 98.31%
+ÑÀ³Ý: Sensitivity: 87.38%, Specificity: 97.13%
+ÑÀö¸: Sensitivity: 81.87%, Specificity: 91.46%
+
+Epoch 2
+lr = 4.50e-05
+Epoch_time: 116.99s
+Accuracy: 90.71%
+Confusion matrix: [[266, 2, 2, 27], [1, 218, 11, 3], [0, 3, 273, 5], [39, 1, 15, 307]]
+ÆäËû: Sensitivity: 86.93%, Specificity: 96.42%
+ÑÀ¹Ú: Sensitivity: 97.32%, Specificity: 98.42%
+ÑÀ³Ý: Sensitivity: 90.70%, Specificity: 99.08%
+ÑÀö¸: Sensitivity: 89.77%, Specificity: 93.38%
+
+Epoch 3
+lr = 4.05e-05
+Epoch_time: 117.98s
+Accuracy: 94.03%
+Confusion matrix: [[280, 0, 0, 11], [1, 222, 10, 4], [0, 2, 282, 8], [25, 0, 9, 319]]
+ÆäËû: Sensitivity: 91.50%, Specificity: 98.73%
+ÑÀ¹Ú: Sensitivity: 99.11%, Specificity: 98.42%
+ÑÀ³Ý: Sensitivity: 93.69%, Specificity: 98.85%
+ÑÀö¸: Sensitivity: 93.27%, Specificity: 95.91%
+
+Epoch 4
+lr = 3.65e-05
+Epoch_time: 121.18s
+Accuracy: 94.97%
+Confusion matrix: [[288, 0, 0, 8], [0, 220, 7, 2], [2, 4, 274, 0], [16, 0, 20, 332]]
+ÆäËû: Sensitivity: 94.12%, Specificity: 99.08%
+ÑÀ¹Ú: Sensitivity: 98.21%, Specificity: 99.05%
+ÑÀ³Ý: Sensitivity: 91.03%, Specificity: 99.31%
+ÑÀö¸: Sensitivity: 97.08%, Specificity: 95.67%
+
+Epoch 5
+lr = 3.28e-05
+Epoch_time: 122.89s
+Accuracy: 95.14%
+Confusion matrix: [[292, 0, 1, 22], [0, 223, 7, 1], [0, 1, 285, 3], [14, 0, 8, 316]]
+ÆäËû: Sensitivity: 95.42%, Specificity: 97.35%
+ÑÀ¹Ú: Sensitivity: 99.55%, Specificity: 99.16%
+ÑÀ³Ý: Sensitivity: 94.68%, Specificity: 99.54%
+ÑÀö¸: Sensitivity: 92.40%, Specificity: 97.35%
+
+Epoch 6
+lr = 2.95e-05
+Epoch_time: 122.87s
+Accuracy: 95.91%
+Confusion matrix: [[295, 0, 0, 23], [0, 220, 4, 1], [2, 4, 294, 2], [9, 0, 3, 316]]
+ÆäËû: Sensitivity: 96.41%, Specificity: 97.35%
+ÑÀ¹Ú: Sensitivity: 98.21%, Specificity: 99.47%
+ÑÀ³Ý: Sensitivity: 97.67%, Specificity: 99.08%
+ÑÀö¸: Sensitivity: 92.40%, Specificity: 98.56%
+
+Epoch 7
+lr = 2.66e-05
+Epoch_time: 123.75s
+Accuracy: 96.59%
+Confusion matrix: [[298, 0, 0, 14], [1, 220, 4, 2], [0, 4, 291, 2], [7, 0, 6, 324]]
+ÆäËû: Sensitivity: 97.39%, Specificity: 98.39%
+ÑÀ¹Ú: Sensitivity: 98.21%, Specificity: 99.26%
+ÑÀ³Ý: Sensitivity: 96.68%, Specificity: 99.31%
+ÑÀö¸: Sensitivity: 94.74%, Specificity: 98.44%
+
+Epoch 8
+lr = 2.39e-05
+Epoch_time: 122.92s
+Accuracy: 97.02%
+Confusion matrix: [[296, 0, 2, 7], [0, 216, 1, 0], [0, 7, 292, 1], [10, 1, 6, 334]]
+ÆäËû: Sensitivity: 96.73%, Specificity: 98.96%
+ÑÀ¹Ú: Sensitivity: 96.43%, Specificity: 99.89%
+ÑÀ³Ý: Sensitivity: 97.01%, Specificity: 99.08%
+ÑÀö¸: Sensitivity: 97.66%, Specificity: 97.95%
+
+Epoch 9
+lr = 2.15e-05
+Epoch_time: 123.42s
+Accuracy: 97.10%
+Confusion matrix: [[300, 0, 0, 12], [0, 220, 5, 1], [0, 4, 290, 0], [6, 0, 6, 329]]
+ÆäËû: Sensitivity: 98.04%, Specificity: 98.62%
+ÑÀ¹Ú: Sensitivity: 98.21%, Specificity: 99.37%
+ÑÀ³Ý: Sensitivity: 96.35%, Specificity: 99.54%
+ÑÀö¸: Sensitivity: 96.20%, Specificity: 98.56%
+
+Epoch 10
+lr = 1.94e-05
+Epoch_time: 123.00s
+Accuracy: 97.44%
+Confusion matrix: [[300, 0, 1, 9], [1, 221, 4, 1], [1, 3, 292, 2], [4, 0, 4, 330]]
+ÆäËû: Sensitivity: 98.04%, Specificity: 98.85%
+ÑÀ¹Ú: Sensitivity: 98.66%, Specificity: 99.37%
+ÑÀ³Ý: Sensitivity: 97.01%, Specificity: 99.31%
+ÑÀö¸: Sensitivity: 96.49%, Specificity: 99.04%
+
+Epoch 11
+lr = 1.74e-05
+Epoch_time: 123.24s
+Accuracy: 97.95%
+Confusion matrix: [[305, 0, 0, 12], [0, 217, 2, 1], [0, 7, 299, 1], [1, 0, 0, 328]]
+ÆäËû: Sensitivity: 99.67%, Specificity: 98.62%
+ÑÀ¹Ú: Sensitivity: 96.87%, Specificity: 99.68%
+ÑÀ³Ý: Sensitivity: 99.34%, Specificity: 99.08%
+ÑÀö¸: Sensitivity: 95.91%, Specificity: 99.88%
+
+Epoch 12
+lr = 1.57e-05
+Epoch_time: 122.91s
+Accuracy: 98.89%
+Confusion matrix: [[303, 0, 0, 1], [0, 219, 2, 0], [0, 5, 298, 1], [3, 0, 1, 340]]
+ÆäËû: Sensitivity: 99.02%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 97.77%, Specificity: 99.79%
+ÑÀ³Ý: Sensitivity: 99.00%, Specificity: 99.31%
+ÑÀö¸: Sensitivity: 99.42%, Specificity: 99.52%
+
+Epoch 13
+lr = 1.41e-05
+Epoch_time: 123.63s
+Accuracy: 97.61%
+Confusion matrix: [[304, 0, 3, 12], [0, 222, 5, 1], [0, 2, 290, 0], [2, 0, 3, 329]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 98.27%
+ÑÀ¹Ú: Sensitivity: 99.11%, Specificity: 99.37%
+ÑÀ³Ý: Sensitivity: 96.35%, Specificity: 99.77%
+ÑÀö¸: Sensitivity: 96.20%, Specificity: 99.40%
+
+Epoch 14
+lr = 1.27e-05
+Epoch_time: 123.24s
+Accuracy: 98.12%
+Confusion matrix: [[304, 0, 0, 8], [0, 215, 2, 0], [1, 9, 298, 0], [1, 0, 1, 334]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 99.08%
+ÑÀ¹Ú: Sensitivity: 95.98%, Specificity: 99.79%
+ÑÀ³Ý: Sensitivity: 99.00%, Specificity: 98.85%
+ÑÀö¸: Sensitivity: 97.66%, Specificity: 99.76%
+
+Epoch 15
+lr = 1.14e-05
+Epoch_time: 122.94s
+Accuracy: 98.81%
+Confusion matrix: [[300, 0, 0, 0], [0, 222, 3, 0], [0, 2, 296, 1], [6, 0, 2, 341]]
+ÆäËû: Sensitivity: 98.04%, Specificity: 100.00%
+ÑÀ¹Ú: Sensitivity: 99.11%, Specificity: 99.68%
+ÑÀ³Ý: Sensitivity: 98.34%, Specificity: 99.66%
+ÑÀö¸: Sensitivity: 99.71%, Specificity: 99.04%
+
+Epoch 16
+lr = 1.03e-05
+Epoch_time: 123.34s
+Accuracy: 98.38%
+Confusion matrix: [[301, 0, 1, 0], [0, 221, 6, 1], [0, 3, 291, 0], [5, 0, 3, 341]]
+ÆäËû: Sensitivity: 98.37%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 98.66%, Specificity: 99.26%
+ÑÀ³Ý: Sensitivity: 96.68%, Specificity: 99.66%
+ÑÀö¸: Sensitivity: 99.71%, Specificity: 99.04%
+
+Epoch 17
+lr = 9.27e-06
+Epoch_time: 123.16s
+Accuracy: 98.64%
+Confusion matrix: [[302, 0, 0, 0], [1, 222, 6, 2], [0, 2, 294, 1], [3, 0, 1, 339]]
+ÆäËû: Sensitivity: 98.69%, Specificity: 100.00%
+ÑÀ¹Ú: Sensitivity: 99.11%, Specificity: 99.05%
+ÑÀ³Ý: Sensitivity: 97.67%, Specificity: 99.66%
+ÑÀö¸: Sensitivity: 99.12%, Specificity: 99.52%
+
+Epoch 18
+lr = 8.34e-06
+Epoch_time: 123.21s
+Accuracy: 98.72%
+Confusion matrix: [[305, 0, 0, 4], [0, 221, 4, 2], [0, 3, 296, 0], [1, 0, 1, 336]]
+ÆäËû: Sensitivity: 99.67%, Specificity: 99.54%
+ÑÀ¹Ú: Sensitivity: 98.66%, Specificity: 99.37%
+ÑÀ³Ý: Sensitivity: 98.34%, Specificity: 99.66%
+ÑÀö¸: Sensitivity: 98.25%, Specificity: 99.76%
+
+Epoch 19
+lr = 7.50e-06
+Epoch_time: 123.38s
+Accuracy: 98.72%
+Confusion matrix: [[303, 0, 1, 2], [0, 222, 4, 1], [0, 2, 294, 0], [3, 0, 2, 339]]
+ÆäËû: Sensitivity: 99.02%, Specificity: 99.65%
+ÑÀ¹Ú: Sensitivity: 99.11%, Specificity: 99.47%
+ÑÀ³Ý: Sensitivity: 97.67%, Specificity: 99.77%
+ÑÀö¸: Sensitivity: 99.12%, Specificity: 99.40%
+
+Epoch 20
+lr = 6.75e-06
+Epoch_time: 123.06s
+Accuracy: 98.81%
+Confusion matrix: [[305, 0, 0, 3], [0, 220, 4, 1], [0, 4, 296, 0], [1, 0, 1, 338]]
+ÆäËû: Sensitivity: 99.67%, Specificity: 99.65%
+ÑÀ¹Ú: Sensitivity: 98.21%, Specificity: 99.47%
+ÑÀ³Ý: Sensitivity: 98.34%, Specificity: 99.54%
+ÑÀö¸: Sensitivity: 98.83%, Specificity: 99.76%
+
+Epoch 21
+lr = 6.08e-06
+Epoch_time: 123.16s
+Accuracy: 98.89%
+Confusion matrix: [[304, 0, 0, 1], [0, 222, 6, 0], [0, 2, 293, 0], [2, 0, 2, 341]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 99.11%, Specificity: 99.37%
+ÑÀ³Ý: Sensitivity: 97.34%, Specificity: 99.77%
+ÑÀö¸: Sensitivity: 99.71%, Specificity: 99.52%
+
+Epoch 22
+lr = 5.47e-06
+Epoch_time: 122.94s
+Accuracy: 98.47%
+Confusion matrix: [[306, 0, 0, 10], [0, 222, 5, 0], [0, 2, 296, 1], [0, 0, 0, 331]]
+ÆäËû: Sensitivity: 100.00%, Specificity: 98.85%
+ÑÀ¹Ú: Sensitivity: 99.11%, Specificity: 99.47%
+ÑÀ³Ý: Sensitivity: 98.34%, Specificity: 99.66%
+ÑÀö¸: Sensitivity: 96.78%, Specificity: 100.00%
+
+Epoch 23
+lr = 4.92e-06
+Epoch_time: 123.14s
+Accuracy: 99.23%
+Confusion matrix: [[304, 0, 0, 0], [0, 219, 2, 0], [0, 5, 299, 0], [2, 0, 0, 342]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 100.00%
+ÑÀ¹Ú: Sensitivity: 97.77%, Specificity: 99.79%
+ÑÀ³Ý: Sensitivity: 99.34%, Specificity: 99.43%
+ÑÀö¸: Sensitivity: 100.00%, Specificity: 99.76%
+
+Epoch 24
+lr = 4.43e-06
+Epoch_time: 118.93s
+Accuracy: 99.15%
+Confusion matrix: [[302, 0, 0, 0], [0, 221, 3, 0], [0, 3, 298, 0], [4, 0, 0, 342]]
+ÆäËû: Sensitivity: 98.69%, Specificity: 100.00%
+ÑÀ¹Ú: Sensitivity: 98.66%, Specificity: 99.68%
+ÑÀ³Ý: Sensitivity: 99.00%, Specificity: 99.66%
+ÑÀö¸: Sensitivity: 100.00%, Specificity: 99.52%
+
+Epoch 25
+lr = 3.99e-06
+Epoch_time: 113.90s
+Accuracy: 99.06%
+Confusion matrix: [[303, 0, 0, 1], [0, 221, 3, 1], [0, 3, 298, 0], [3, 0, 0, 340]]
+ÆäËû: Sensitivity: 99.02%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 98.66%, Specificity: 99.58%
+ÑÀ³Ý: Sensitivity: 99.00%, Specificity: 99.66%
+ÑÀö¸: Sensitivity: 99.42%, Specificity: 99.64%
+
+Epoch 26
+lr = 3.59e-06
+Epoch_time: 115.68s
+Accuracy: 99.32%
+Confusion matrix: [[304, 0, 0, 1], [0, 222, 2, 1], [0, 2, 299, 0], [2, 0, 0, 340]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 99.11%, Specificity: 99.68%
+ÑÀ³Ý: Sensitivity: 99.34%, Specificity: 99.77%
+ÑÀö¸: Sensitivity: 99.42%, Specificity: 99.76%
+
+Epoch 27
+lr = 3.23e-06
+Epoch_time: 116.16s
+Accuracy: 99.23%
+Confusion matrix: [[305, 0, 0, 2], [0, 220, 1, 0], [0, 4, 299, 0], [1, 0, 1, 340]]
+ÆäËû: Sensitivity: 99.67%, Specificity: 99.77%
+ÑÀ¹Ú: Sensitivity: 98.21%, Specificity: 99.89%
+ÑÀ³Ý: Sensitivity: 99.34%, Specificity: 99.54%
+ÑÀö¸: Sensitivity: 99.42%, Specificity: 99.76%
+
+Epoch 28
+lr = 2.91e-06
+Epoch_time: 116.79s
+Accuracy: 99.23%
+Confusion matrix: [[304, 0, 0, 1], [0, 220, 1, 0], [0, 4, 299, 0], [2, 0, 1, 341]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 98.21%, Specificity: 99.89%
+ÑÀ³Ý: Sensitivity: 99.34%, Specificity: 99.54%
+ÑÀö¸: Sensitivity: 99.71%, Specificity: 99.64%
+
+Epoch 29
+lr = 2.62e-06
+Epoch_time: 118.00s
+Accuracy: 99.15%
+Confusion matrix: [[304, 0, 0, 1], [0, 220, 2, 0], [0, 4, 298, 0], [2, 0, 1, 341]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 98.21%, Specificity: 99.79%
+ÑÀ³Ý: Sensitivity: 99.00%, Specificity: 99.54%
+ÑÀö¸: Sensitivity: 99.71%, Specificity: 99.64%
+
+Epoch 30
+lr = 2.36e-06
+Epoch_time: 138.93s
+Accuracy: 99.32%
+Confusion matrix: [[304, 0, 0, 0], [0, 222, 2, 1], [0, 2, 298, 0], [2, 0, 1, 341]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 100.00%
+ÑÀ¹Ú: Sensitivity: 99.11%, Specificity: 99.68%
+ÑÀ³Ý: Sensitivity: 99.00%, Specificity: 99.77%
+ÑÀö¸: Sensitivity: 99.71%, Specificity: 99.64%
+
+Epoch 31
+lr = 2.12e-06
+Epoch_time: 131.77s
+Accuracy: 99.40%
+Confusion matrix: [[305, 0, 0, 1], [0, 222, 2, 0], [0, 2, 298, 0], [1, 0, 1, 341]]
+ÆäËû: Sensitivity: 99.67%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 99.11%, Specificity: 99.79%
+ÑÀ³Ý: Sensitivity: 99.00%, Specificity: 99.77%
+ÑÀö¸: Sensitivity: 99.71%, Specificity: 99.76%
+
+Epoch 32
+lr = 1.91e-06
+Epoch_time: 116.59s
+Accuracy: 99.32%
+Confusion matrix: [[304, 0, 0, 1], [0, 221, 1, 0], [0, 3, 299, 0], [2, 0, 1, 341]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 98.66%, Specificity: 99.89%
+ÑÀ³Ý: Sensitivity: 99.34%, Specificity: 99.66%
+ÑÀö¸: Sensitivity: 99.71%, Specificity: 99.64%
+
+Epoch 33
+lr = 1.72e-06
+Epoch_time: 117.48s
+Accuracy: 99.23%
+Confusion matrix: [[304, 0, 0, 1], [0, 220, 1, 0], [0, 4, 299, 0], [2, 0, 1, 341]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 98.21%, Specificity: 99.89%
+ÑÀ³Ý: Sensitivity: 99.34%, Specificity: 99.54%
+ÑÀö¸: Sensitivity: 99.71%, Specificity: 99.64%
+
+Epoch 34
+lr = 1.55e-06
+Epoch_time: 117.30s
+Accuracy: 99.32%
+Confusion matrix: [[304, 0, 0, 1], [0, 221, 1, 0], [0, 3, 299, 0], [2, 0, 1, 341]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 98.66%, Specificity: 99.89%
+ÑÀ³Ý: Sensitivity: 99.34%, Specificity: 99.66%
+ÑÀö¸: Sensitivity: 99.71%, Specificity: 99.64%
+
+Epoch 35
+lr = 1.39e-06
+Epoch_time: 117.51s
+Accuracy: 99.49%
+Confusion matrix: [[304, 0, 0, 0], [0, 222, 1, 0], [0, 2, 299, 0], [2, 0, 1, 342]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 100.00%
+ÑÀ¹Ú: Sensitivity: 99.11%, Specificity: 99.89%
+ÑÀ³Ý: Sensitivity: 99.34%, Specificity: 99.77%
+ÑÀö¸: Sensitivity: 100.00%, Specificity: 99.64%
+
+Epoch 36
+lr = 1.25e-06
+Epoch_time: 117.56s
+Accuracy: 99.15%
+Confusion matrix: [[304, 0, 0, 1], [0, 221, 2, 1], [0, 3, 298, 0], [2, 0, 1, 340]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 98.66%, Specificity: 99.68%
+ÑÀ³Ý: Sensitivity: 99.00%, Specificity: 99.66%
+ÑÀö¸: Sensitivity: 99.42%, Specificity: 99.64%
+
+Epoch 37
+lr = 1.13e-06
+Epoch_time: 117.49s
+Accuracy: 99.32%
+Confusion matrix: [[305, 0, 0, 1], [0, 222, 2, 1], [0, 2, 298, 0], [1, 0, 1, 340]]
+ÆäËû: Sensitivity: 99.67%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 99.11%, Specificity: 99.68%
+ÑÀ³Ý: Sensitivity: 99.00%, Specificity: 99.77%
+ÑÀö¸: Sensitivity: 99.42%, Specificity: 99.76%
+
+Epoch 38
+lr = 1.01e-06
+Epoch_time: 117.65s
+Accuracy: 99.23%
+Confusion matrix: [[304, 0, 0, 1], [0, 222, 2, 1], [0, 2, 298, 0], [2, 0, 1, 340]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 99.11%, Specificity: 99.68%
+ÑÀ³Ý: Sensitivity: 99.00%, Specificity: 99.77%
+ÑÀö¸: Sensitivity: 99.42%, Specificity: 99.64%
+
+Epoch 39
+lr = 9.12e-07
+Epoch_time: 117.63s
+Accuracy: 99.23%
+Confusion matrix: [[304, 0, 0, 1], [0, 222, 2, 1], [0, 2, 298, 0], [2, 0, 1, 340]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 99.11%, Specificity: 99.68%
+ÑÀ³Ý: Sensitivity: 99.00%, Specificity: 99.77%
+ÑÀö¸: Sensitivity: 99.42%, Specificity: 99.64%
+
+Epoch 40
+lr = 8.21e-07
+Epoch_time: 117.45s
+Accuracy: 99.23%
+Confusion matrix: [[304, 0, 0, 1], [0, 220, 1, 0], [0, 4, 299, 0], [2, 0, 1, 341]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 98.21%, Specificity: 99.89%
+ÑÀ³Ý: Sensitivity: 99.34%, Specificity: 99.54%
+ÑÀö¸: Sensitivity: 99.71%, Specificity: 99.64%
+
+Epoch 41
+lr = 7.39e-07
+Epoch_time: 117.45s
+Accuracy: 99.15%
+Confusion matrix: [[304, 0, 0, 1], [0, 220, 1, 1], [0, 4, 299, 0], [2, 0, 1, 340]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 98.21%, Specificity: 99.79%
+ÑÀ³Ý: Sensitivity: 99.34%, Specificity: 99.54%
+ÑÀö¸: Sensitivity: 99.42%, Specificity: 99.64%
+
+Epoch 42
+lr = 6.65e-07
+Epoch_time: 117.58s
+Accuracy: 99.23%
+Confusion matrix: [[304, 0, 0, 1], [0, 220, 1, 0], [0, 4, 299, 0], [2, 0, 1, 341]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 98.21%, Specificity: 99.89%
+ÑÀ³Ý: Sensitivity: 99.34%, Specificity: 99.54%
+ÑÀö¸: Sensitivity: 99.71%, Specificity: 99.64%
+
+Epoch 43
+lr = 5.99e-07
+Epoch_time: 117.50s
+Accuracy: 99.23%
+Confusion matrix: [[304, 0, 0, 1], [0, 222, 2, 1], [0, 2, 298, 0], [2, 0, 1, 340]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 99.11%, Specificity: 99.68%
+ÑÀ³Ý: Sensitivity: 99.00%, Specificity: 99.77%
+ÑÀö¸: Sensitivity: 99.42%, Specificity: 99.64%
+
+Epoch 44
+lr = 5.39e-07
+Epoch_time: 117.69s
+Accuracy: 99.23%
+Confusion matrix: [[304, 0, 0, 1], [0, 222, 2, 1], [0, 2, 298, 0], [2, 0, 1, 340]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 99.11%, Specificity: 99.68%
+ÑÀ³Ý: Sensitivity: 99.00%, Specificity: 99.77%
+ÑÀö¸: Sensitivity: 99.42%, Specificity: 99.64%
+
+Epoch 45
+lr = 4.85e-07
+Epoch_time: 117.38s
+Accuracy: 99.15%
+Confusion matrix: [[304, 0, 0, 1], [0, 220, 1, 1], [0, 4, 299, 0], [2, 0, 1, 340]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 98.21%, Specificity: 99.79%
+ÑÀ³Ý: Sensitivity: 99.34%, Specificity: 99.54%
+ÑÀö¸: Sensitivity: 99.42%, Specificity: 99.64%
+
+Epoch 46
+lr = 4.36e-07
+Epoch_time: 117.66s
+Accuracy: 99.23%
+Confusion matrix: [[304, 0, 0, 1], [0, 222, 2, 1], [0, 2, 298, 0], [2, 0, 1, 340]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 99.11%, Specificity: 99.68%
+ÑÀ³Ý: Sensitivity: 99.00%, Specificity: 99.77%
+ÑÀö¸: Sensitivity: 99.42%, Specificity: 99.64%
+
+Epoch 47
+lr = 3.93e-07
+Epoch_time: 117.67s
+Accuracy: 99.23%
+Confusion matrix: [[304, 0, 0, 1], [0, 221, 1, 1], [0, 3, 299, 0], [2, 0, 1, 340]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 98.66%, Specificity: 99.79%
+ÑÀ³Ý: Sensitivity: 99.34%, Specificity: 99.66%
+ÑÀö¸: Sensitivity: 99.42%, Specificity: 99.64%
+
+Epoch 48
+lr = 3.53e-07
+Epoch_time: 117.59s
+Accuracy: 99.15%
+Confusion matrix: [[304, 0, 0, 1], [0, 221, 2, 1], [0, 3, 298, 0], [2, 0, 1, 340]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 98.66%, Specificity: 99.68%
+ÑÀ³Ý: Sensitivity: 99.00%, Specificity: 99.66%
+ÑÀö¸: Sensitivity: 99.42%, Specificity: 99.64%
+
+Epoch 49
+lr = 3.18e-07
+Epoch_time: 117.56s
+Accuracy: 99.15%
+Confusion matrix: [[304, 0, 0, 1], [0, 220, 1, 1], [0, 4, 299, 0], [2, 0, 1, 340]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 98.21%, Specificity: 99.79%
+ÑÀ³Ý: Sensitivity: 99.34%, Specificity: 99.54%
+ÑÀö¸: Sensitivity: 99.42%, Specificity: 99.64%
+
+Epoch 50
+lr = 2.86e-07
+Epoch_time: 117.17s
+Accuracy: 99.23%
+Confusion matrix: [[304, 0, 0, 1], [0, 222, 2, 1], [0, 2, 298, 0], [2, 0, 1, 340]]
+ÆäËû: Sensitivity: 99.35%, Specificity: 99.88%
+ÑÀ¹Ú: Sensitivity: 99.11%, Specificity: 99.68%
+ÑÀ³Ý: Sensitivity: 99.00%, Specificity: 99.77%
+ÑÀö¸: Sensitivity: 99.42%, Specificity: 99.64%
+

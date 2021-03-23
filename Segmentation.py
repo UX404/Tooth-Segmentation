@@ -3,14 +3,14 @@ import numpy as np
 import os
 import torch
 
-test_case = 'male/0016.jpg'
-result_name = "result/('160_normal_4', '32_sobel_4', '32_canny_4')_2021-03-15_01-37-28"
+test_case = 'male/0006.jpg'
+result_name = "result/Joint_256_('160_normal_4', '32_sobel_4', '32_canny_4')_2021-03-20_00-50-01"
 
 color = [(114, 128, 250),  # 鲜肉色
          (0, 165, 255),  # 橙色
          (255, 191, 0),  # 深天蓝
          (50, 205, 50)]  # 酸橙绿
-classification = ['牙冠', '牙根', '牙髓', '非牙齿']
+classification = ['其他', '牙冠', '牙齿', '牙龈']
 
 # load
 net = torch.load(result_name + '.pth')
@@ -28,5 +28,5 @@ for i in range(700):
         image_copy.putpixel((j, i), color[y])
         print("Painting (%d, %d) " % (i, j) + classification[y])
 
-image_copy.save(result_name + '.jpg')
+image_copy.save(result_name + '_Segmentation.jpg')
 image_copy.show()
